@@ -19,19 +19,19 @@ app.use(express.static(publicDirectorypath));
 app.get('', (req, res) => {
     res.render('index', {
         title: 'index',
-        name: 'Howard Zhang'
+        name: 'Howard'
     });
 });
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About us',
+        title: 'About company',
         name: 'Noblefibres Imp. & Exp. Co., Ltd.'
     });
 });
 app.get('/contact', (req, res) => {
     res.render('contact', {
         title: 'Contact us',
-        name: 'Noblefibres'
+        name: 'Noblefibres I&E'
     });
 });
 
