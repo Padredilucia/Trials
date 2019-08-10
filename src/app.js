@@ -3,7 +3,6 @@ const path = require('path');
 const app = express();
 const hbs = require('hbs');
 
-console.log("what is this?")
 // configration of paths for Express
 const publicDirectorypath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
