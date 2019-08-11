@@ -14,3 +14,8 @@ gulp.task('watch', function(){
         gulp.start('html');
     });
 });
+gulp.task('watch', function(){
+    watch('./app/index.html', function(){
+        gulp.start('html');
+    });
+});
