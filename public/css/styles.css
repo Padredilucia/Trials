@@ -7,9 +7,10 @@ body {
 
 h1 {
     font-family: helvetica;
-    font-size: 2em;
-    color: blue;
+    font-size: 5rem;
+    color: grey;
     padding: 20px;
+    margin: auto;
 }
 img {
     width: 500px;
