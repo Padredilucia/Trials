@@ -1,26 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>index</title>
+    <title>About</title>
+
 </head>
-
 <body>
-   <%=header%>
-  
-    <div>
-            <p>Created by <%=name%></p>
-    </div>
-    <div>
-        <h3>it is a lot fun!</h3>
-        
-    </div>
-
-
+    <%-include(./partials/header.ejs)%>
+    <img src="/img/3.jpg" alt="">
+    <h2><%=name%></h2>
 </body>
-
 </html>

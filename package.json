@@ -10,9 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.4"
+    "hbs": "^4.0.4",
+    "mangodb": "^1.0.0"
   },
   "devDependencies": {
+    "ejs": "^2.6.2",
     "gulp": "^4.0.2",
     "gulp-watch": "^5.0.1"
   }

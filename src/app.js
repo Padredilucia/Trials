@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
+const hbs = require('ejs');
 const app = express();
 const port = process.env.PORT || 3000
 
@@ -10,9 +11,9 @@ const viewsPath = path.join(__dirname, '../templates/views');
 const partialsPath = path.join(__dirname, '../templates/partials');
 
 // Setup handlebars and directory of views
-app.set('view engine', 'hbs');
+app.set('view engine', 'ejs');
 app.set('views', viewsPath);
-hbs.registerPartials(partialsPath);
+
 
 // Setup static directory of this server
 app.use(express.static(publicDirectorypath));

@@ -19,3 +19,6 @@ gulp.task('watch', function(){
         gulp.start('html');
     });
 });
+const name = "Howard";
+const age = 48;
+console.log('my name is ${name}, I am ${age} years old');
